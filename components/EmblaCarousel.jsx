@@ -19,7 +19,7 @@ const EmblaCarousel = ({ images, options }) => {
 
   return (
     <div>
-      <h2 className=" mb-11 font-custom text-4xl lg:text-center font-semibold">
+      <h2 className=" mb-11 font-custom mx-auto max-w-4xl text-4xl text-center font-semibold">
         Partners
       </h2>
       <div className="overflow-hidden w-full h-[100px]">

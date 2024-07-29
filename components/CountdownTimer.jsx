@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useEffect, useState } from 'react';
 
 const CountdownTimer = ({ targetDate }) => {
@@ -30,11 +30,11 @@ const CountdownTimer = ({ targetDate }) => {
   }, [timeLeft]);
 
   return (
-    <div className="flex items-center justify-center space-x-8">
-      <div className="text-center">
+    <div className="flex items-center mx-auto justify-center space-x-8">
+      {/*<div className="text-center">
         <div className="text-base sm:text-2xl font-custom">Months</div>
         <div className="font-bold text-4xl font-custom">{timeLeft.months}</div>
-      </div>
+      </div>*/}
       <div className="text-center">
         <div className="text-base sm:text-2xl font-custom">Days</div>
         <div className="font-bold text-4xl font-custom">{timeLeft.days}</div>
