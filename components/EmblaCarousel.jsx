@@ -19,7 +19,7 @@ const EmblaCarousel = ({ images, options }) => {
 
   return (
     <div>
-      <h2 className="mb-16 font-custom text-4xl lg:text-center font-semibold">
+      <h2 className=" mb-11 font-custom text-4xl lg:text-center font-semibold">
         Partners
       </h2>
       <div className="overflow-hidden w-full h-[100px]">
@@ -27,13 +27,13 @@ const EmblaCarousel = ({ images, options }) => {
           <div className="flex">
             {images.map((src, index) => (
               <div
-                className="relative min-w-[15%] flex justify-center items-center"
+                className="relative min-w-[40%] sm:min-w-[15%] flex justify-center items-center"
                 key={index}
               >
                 <img
                   src={src}
                   alt={`Slide ${index + 1}`}
-                  className="block w-auto h-[60px] object-cover"
+                  className="block w-auto h-[40px] sm:h-[60px] object-cover"
                 />
               </div>
             ))}
